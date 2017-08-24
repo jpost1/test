@@ -1,6 +1,7 @@
 dist: trusty
 language: cpp
 
+
 script:
   - mkdir build && cd build
   - cmake .. -DCMAKE_CXX_COMPILER=$CMAKE_CXX_COMPILER
